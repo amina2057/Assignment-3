@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif&family=Open+Sans:wght@800&family=Poppins:wght@400;500;700&family=Sora:wght@100&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;  
+}
+.nab-bar {
+ max-width: 1170px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 50px 100px 50px 100px;
+}
+ a {
+text-decoration: none;
+color: var(--Dark-02, #424247);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+  /* div .angcor {
+    justify-content: space-around;
+    gap: 30px; */
+
+.red {
+    color: #FF4240;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: normal;
+}
+.img {
+    background-image: url('../Images/1.png');
+    width: 1170px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+margin-left: 100px;
+}
+.img img {
+    display: inline-flex;
+padding: 30px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 16px;
+background: #131318;
+margin-top: 450px;
+}
+.btn {
+    background-color: #FF4240;
+    border-radius: 16px;
+}
+.search img {
+    height: 18px;
+}
+.img-87 {
+background-image: url('../Images/Group\ 9.png');
+width: 120px;
+height: 120px;
+flex-shrink: 0;
+}
+.parcentage {
+color: #131318;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 20px;  
+}
+.img-95  {
+    background-image: url('../Images/Group\ 9\(3\).png');
+    width: 120px;
+height: 120px;
+flex-shrink: 0;
+margin: 50px;
+}
+.img-90 {
+    background-image: url('../Images/Group\ 9\ \(1\).png');
+    width: 120px;
+ height: 120px;
+  flex-shrink: 0;
+}
+
+.img-80 {
+    background-image: url('../Images/Group\ 9\ \(2\).png');
+    width: 120px;
+   height: 120px;
+  flex-shrink: 0;
+}
+.img-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-flex h3{
+    margin-top: 40px;
+    text-align: center;
+}
+.text {
+    text-align: center;
+    margin-top: 50px; 
+}
