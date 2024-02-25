@@ -17,9 +17,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: normal;
 }
-  /* div .angcor {
-    justify-content: space-around;
-    gap: 30px; */
 
 .red {
     color: #FF4240;
@@ -98,5 +95,15 @@ margin: 50px;
 }
 .text {
     text-align: center;
-    margin-top: 50px; 
+    margin: 50px; 
+}
+.icon {
+    display: flex;
+    gap: 10px;
+}
+.icons {
+    display: flex;
+    margin: 90px;
+    gap: 60px;
+    line-height: 30px;
 }
